@@ -1,7 +1,7 @@
-OS X Defaults module for Puppet
+OS X Defaults module for Puppet 4.x
 ==================
 
-This module manages defaults on OS X. I didn't write 90% of this, but I can't for the life of me remember where I found it. I'm putting it on here for posterity.
+This module manages defaults on OS X.
 
 #Usage
 
@@ -20,9 +20,7 @@ Possible valuse for ``type`` are:
 
 Example Puppet Code:
 
-	include macdefaults
-	
-	mac-defaults { "set-a4":
+	mac_defaults { "set-a4":
           domain => '/Library/Preferences/com.apple.print.PrintingPrefs',
           key => 'DefaultPaperID',
           type => 'string',
