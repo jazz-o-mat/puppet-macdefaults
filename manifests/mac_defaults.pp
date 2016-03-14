@@ -16,7 +16,7 @@ define macdefaults::mac_defaults (
                                 'TRUE' => "defaults read $domain $key | grep -qx 1",
                                 'FALSE' => "defaults read $domain $key | grep -qx 0"
                                },
-                            default => "defaults read $domain $key | grep -qx $value | sed -e 's/ (.*)/\1/'"
+                            default => "defaults read $domain $key | grep -qx $value"
                             }
                        }
                    }
