@@ -20,7 +20,7 @@ Possible valuse for ``type`` are:
 
 Example Puppet Code:
 
-	mac_defaults { "set-a4":
+	macdefaults { "set-a4":
           domain => '/Library/Preferences/com.apple.print.PrintingPrefs',
           key => 'DefaultPaperID',
           type => 'string',

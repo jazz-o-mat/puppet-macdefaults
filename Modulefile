@@ -1,5 +1,5 @@
 name 'macdefaults'
-version '1.0.0'
+version '1.0.1'
 summary 'Manage defaults on an OS X system'
 author 'Yves Zieger'
 source 'https://github.com/jazz-o-mat/puppet-macdefaults.git'
